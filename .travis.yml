@@ -6,5 +6,4 @@ install:
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release MyGame.sln
-  packages/NUnit.2.6.4/lib/
   - mono .packages/NUnit.2.6.4/lib/nunit.framework.dll
