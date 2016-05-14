@@ -25,7 +25,7 @@ namespace MyGame
 
 				//Tell myShape to Draw itself
 				myShape.Draw();
-
+				myShape.Move();
 				if (SwinGame.MouseClicked (MouseButton.LeftButton)) // if left clciked on mouse = true
 				{
 					//update X & Y

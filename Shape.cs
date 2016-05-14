@@ -78,6 +78,10 @@ namespace MyGame
 			//public static bool PointInRect(Point2D pt, float x, float y, float w, float h) in swinGame
 		}
 
+		public void Move()
+		{
+			X +=1; 
+		}
 	}
 }
 
