@@ -1,11 +1,18 @@
 ﻿<Properties StartupItem="MyGame.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug-Windows|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="src\GameMain.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShapeTest.cs">
     <Files>
-      <File FileName="src\GameMain.cs" Line="29" Column="23" />
-      <File FileName="Shape.cs" Line="82" Column="2" />
+      <File FileName="src\GameMain.cs" Line="1" Column="1" />
+      <File FileName="Shape.cs" Line="1" Column="1" />
       <File FileName="ShapeTest.cs" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State name="__root__">
+          <Node name="MyGame" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

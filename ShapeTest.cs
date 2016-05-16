@@ -15,7 +15,7 @@ namespace MyGame
 			s.Width =50;
 			s.Height=50;
 
-			Assert.IsTrue(s.IsAt(SwinGame.PointAt(50,50)));
+			Assert.IsTrue(s.IsAt(SwinGame.PointAt(20,50)));
 			Assert.IsTrue(s.IsAt(SwinGame.PointAt(25,25)));
 			Assert.IsFalse(s.IsAt(SwinGame.PointAt(10,50)));
 			Assert.IsFalse(s.IsAt(SwinGame.PointAt(50,10)));
