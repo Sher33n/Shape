@@ -1,4 +1,9 @@
 version: 1.0.{build}
+nuget:
+  project_feed: true
 build:
   project: MyGame.sln
+  publish_nuget: true
+  publish_nuget_symbols: true
+  include_nuget_references: true
   verbosity: minimal
