@@ -1,9 +1,0 @@
-language: csharp
-solution: MyGame.sln
-
-install:
-  - nuget restore MyGame.sln
-  - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
-script:
-  - xbuild /p:Configuration=Release MyGame.sln
-  - mono .packages/NUnit.2.6.4/lib/nunit.framework.dll
