@@ -1,0 +1,11 @@
+configuration: Release
+
+# restore NuGet packages before running MSBuild
+before_bulid:
+ - nuget restore
+
+# package Web Application project for Web Deploy
+bulid:
+ project: MyGame.sln
+ verbosity: minimal
+ publish_wap: true
